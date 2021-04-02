@@ -1,0 +1,55 @@
+{
+  "name": "class-schedule-card",
+  "version": "0.1.0",
+  "description": "课程表后端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:build": "tsc -w",
+    "dev:start": "nodemon node dist/app.js",
+    "dev": "tsc && concurrently yarn:start:*",
+    "start:build": "tsc",
+    "start:start": "nodemon node dist/app.js",
+    "start": "tsc && node ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CregskiN/class-schedule-card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CregskiN/class-schedule-card/issues"
+  },
+  "homepage": "https://github.com/CregskiN/class-schedule-card#readme",
+  "dependencies": {
+    "@types/koa-static": "^4.0.1",
+    "@types/puppeteer": "^3.0.1",
+    "@types/require-directory": "^2.1.1",
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.19",
+    "node-schedule": "^1.3.2",
+    "nodemailer": "^6.4.10",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.4",
+    "puppeteer": "^5.0.0",
+    "reflect-metadata": "^0.1.13",
+    "require-directory": "^2.1.1",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.3",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.4.1",
+    "@types/lodash": "^4.14.157",
+    "@types/node-schedule": "^1.3.0",
+    "@types/nodemailer": "^6.4.0",
+    "@types/nodemailer-smtp-transport": "^2.7.4"
+  }
+}
