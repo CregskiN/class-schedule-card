@@ -41,7 +41,8 @@
     "puppeteer": "^5.0.0",
     "reflect-metadata": "^0.1.13",
     "require-directory": "^2.1.1",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.6",
+    "urlencode": "^1.1.0"
   },
   "devDependencies": {
     "@types/koa": "^2.11.3",
